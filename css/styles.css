@@ -1,22 +1,16 @@
-$color: firebrick;
-
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 body {
   color: white;
-  background: $color;
-}
+  background: firebrick; }
 
 header {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  h1 {
-    color: Gold;
-  }
-}
+  min-height: 100vh; }
+  header h1 {
+    color: Gold; }
